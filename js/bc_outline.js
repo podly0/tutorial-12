@@ -45,7 +45,8 @@ function makeOutline() {
    mainHeading.appendChild(headingText);
    outline.appendChild(mainHeading);
    outline.appendChild(outlineList);
-   
+  
+   createList(source, outlineList);
 }
 
 function createList(source, outlineList) {
