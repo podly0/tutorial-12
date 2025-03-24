@@ -105,7 +105,7 @@ function createList(source, outlineList) {
          for (var i = 1; i <= levelUp; i++) {
             outlineList = outlineList.parentNode.parentNode;
          }
-         outlineList.appendChild(listElem)
+         outlineList.appendChild(listElem);
         } 
          // Update the value of prevLevel
           prevLevel = headLevel;
